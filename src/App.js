@@ -45,8 +45,8 @@ function App() {
           <i class="fab fa-viacoin"></i> Coin Market
         </h1>
         <button onClick={swtichTheme}>
-          DarkMode
-          {theme === "light" ? "Dark" : "Light"}
+          {theme === "light" ? "Dark " : "Light "}
+          Mode
         </button>
         <form>
           <input
