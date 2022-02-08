@@ -13,7 +13,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin-top: 30px;
-  color: #fff;
+  color: var(--text-primary);
 }
 
 .header {
@@ -50,9 +50,9 @@
   background-color: var(--background);
   font-size: large;
   font-weight: bold;
-  padding: 20px;
+  padding: 20px 0px;
   height: calc(100vh - 40px);
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 button {
   color: var(--text-primary);
